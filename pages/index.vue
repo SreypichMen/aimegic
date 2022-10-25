@@ -1,15 +1,15 @@
 <template>
-<!-- <div>
-  <headerMenu />
+ <div>
+  <homePage />
 </div>
-     -->
+ 
 </template>
 
 <script>
-// import headerMenu from '~/components/headerMenu.vue'
-// export default {
-//     components: {
-//         headerMenu
-//     } 
-// }
+import homePage from '~/components/homePage.vue'
+export default {
+    components: {
+        homePage
+    } 
+}
 </script>

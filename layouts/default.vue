@@ -1,13 +1,13 @@
 <template>
-  <v-app >
+  
+  <v-app class="layout">
     <headerMenu />     
-    <v-main>
-      <v-container>
+
         <Nuxt />
-      </v-container>
-    </v-main>
+  
   
   </v-app>
+
 </template>
 
 <script>
@@ -19,7 +19,10 @@ export default {
 }
 </script>
 <style>
-*{
-  font-family: 'Roboto Condensed', sans-serif;
+.layout{
+  /*font-family: 'Roboto Condensed', sans-serif;*/
+  /* font-family: 'Jost', sans-serif; 
+  font-family: 'Fasthand', cursive;*/
+  font-family: "Haas Grot Text R Web", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 </style>
